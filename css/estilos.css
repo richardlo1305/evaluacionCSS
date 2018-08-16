@@ -1,0 +1,66 @@
+body
+{
+    font-family: Dancing Script;
+    background-color: #02010a;
+}
+
+header
+{
+    background-color: #5b7989;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+header .encabezado
+{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px #02010a;
+    float: left;
+    line-height: 50px;
+}
+.wrapper
+{
+    margin:10px;
+    overflow: hidden;
+}
+header nav
+{
+    float: right;
+    line-height: 50px;
+}
+header nav a
+{
+    display:inline-block;
+    color: white;
+    padding: 10px 10px;
+    line-height: normal;
+}
+header nav a:focus-visible
+{
+    text-decoration: none;
+    color: brown;
+}
+#contenido
+{
+    background-color: #82c3a6;
+}
+#contenido img
+{
+    display: block;
+    margin:10px auto;
+    padding: 20px;
+}
+
+div [class*="bloque"]
+{
+    min-height: 200px;
+    display: block;
+    margin: 10px auto;
+    flex: 1 2 40%;
+}
+.contenedor
+{
+    display: flex;
+    flex-direction: row wrap;
+    background-color: #d5c75f;
+}

@@ -1,0 +1,59 @@
+body
+{
+    font-family: Dancing Script;
+    background-color: #02010a;
+}
+#contenido
+{
+    width: 900px;
+    display: block;
+    margin: auto;
+}
+header
+{
+    background-color: #5b7989;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+header h1
+{
+    color: white;
+    text-shadow: 2px 2px #02010a;
+    float: left;
+    line-height: 50px;
+    padding: 0 4%;
+}
+header nav
+{
+    float: right;
+    line-height: 50px;
+    padding: 2% 4% 0 0;
+}
+header nav a
+{
+    display:inline-block;
+    color: white;
+    padding: 10px 10px;
+    line-height: normal;
+    text-decoration: none;
+}
+img
+{
+    box-shadow: 2px 2px 5px #02010a;
+}
+#imagenCentral
+{
+    height: 500px;
+    background-color: #82c3a6;
+}
+#imagenCentral div
+{
+    padding: 2% 0;
+}
+#imagenCentral div img
+{
+    height: 100%;
+    width: 90%;
+    display: block;
+    margin: auto;
+}

@@ -57,3 +57,42 @@ img
     display: block;
     margin: auto;
 }
+#imagenSecundaria
+{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #d5c75f;
+}
+#imagenSecundaria div
+{
+    padding: 2%;
+}
+#imagenSecundaria div img
+{
+    display: block;
+    margin: 0px auto;
+    height: 90%;
+    width: 90%;
+    border: 1px solid black;
+}
+#imagenSecundaria div h2
+{
+    text-align: center;
+    text-decoration-line: underline;
+}
+div [class*="bloque"]
+{
+    width: 46%;
+}
+
+.bloque1 img:hover
+{
+    transform: rotate(10deg);
+    box-shadow: 2px 2px 5px #82c3a6;
+}
+
+.bloque2 img:hover
+{
+    transform: translate(20px, -5px);
+    box-shadow: 2px 2px 5px #82c3a6;
+}

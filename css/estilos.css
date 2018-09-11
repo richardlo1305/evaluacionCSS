@@ -2,44 +2,45 @@ body
 {
     font-family: Dancing Script;
     background-color: #02010a;
+    padding: 0 2%;
 }
 
-header
-{
-    background-color: #5b7989;
-    border-radius: 10px 10px 0px 0px;
-    overflow: hidden;
-}
-header .encabezado
+
+#banner .encabezado
 {
     color: white;
     font-size: 30px;
     text-shadow: 2px 2px #02010a;
     float: left;
-    line-height: 50px;
+    line-height: 80px;
 }
-.wrapper
-{
-    margin:10px;
-    overflow: hidden;
+
+
+#banner nav {
+    background: #5b7989;
+    font-size: 1.143em;
+    margin: 0 auto 0em auto;
+    padding: 0;
+    align-content: right;
+    height: 80px;
+    line-height: 80px;
 }
-header nav
-{
-    float: right;
-    line-height: 50px;
+#banner nav ul {list-style: none; margin: 0 auto; width: 800px;text-align: right;}
+#banner nav li {float: right; display: inline; margin: 0;}
+#banner nav a:link, #banner nav a:visited {
+    border-radius: 15px 10px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    padding: 1px 1em;
 }
-header nav a
-{
-    display:inline-block;
-    color: white;
-    padding: 10px 10px;
-    line-height: normal;
+#banner nav a:hover, #banner nav a:active{
+    text-shadow: none !important;
 }
-header nav a:focus-visible
-{
-    text-decoration: none;
-    color: brown;
+#banner nav .active a:link, #banner nav .active a:visited {
+    text-decoration: none !important;
 }
+
 #contenido
 {
     background-color: #82c3a6;
@@ -47,7 +48,7 @@ header nav a:focus-visible
 #contenido img
 {
     display: block;
-    margin:10px auto;
+    margin:0px auto;
     padding: 20px;
 }
 
@@ -63,4 +64,20 @@ div [class*="bloque"]
     display: flex;
     flex-direction: row wrap;
     background-color: #d5c75f;
+}
+div [class*="bloque"]
+{
+    box-shadow: 1px 2px 3px #82c3a6;
+    border: 2px solid black;
+}
+
+.bloque1:hover
+{
+    transform: rotate(10deg);
+    width: 20%;
+}
+.bloque2:hover
+{
+    transform: translate(20px, -5px);
+    
 }

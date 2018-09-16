@@ -40,33 +40,34 @@ header nav a
     color: white;
     padding: 10px 10px;
     line-height: normal;
-    text-decoration: none;
 }
+
 img
 {
     box-shadow: 2px 2px 5px #02010a;
 }
 #imagenCentral
 {
-    height: 500px;
     background-color: #82c3a6;
 }
 #imagenCentral div
 {
     padding: 2% 0;
+    height: 400px;
 }
 #imagenCentral div img
 {
-    height: 100%;
-    width: 90%;
     display: block;
     margin: auto;
+    height: 100%;
+    width: 90%;
 }
 #imagenSecundaria
 {
     display: flex;
     flex-flow: row wrap;
     background-color: #d5c75f;
+    height: 400px;
 }
 #imagenSecundaria div
 {
@@ -102,6 +103,29 @@ div [class*="bloque"]
     box-shadow: 2px 2px 5px #82c3a6;
 }
 
+#paisajes
+{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #d5c75f;
+    height: 400px;
+}
+#paisajes div
+{
+    padding: 2%;
+}
+#paisajes div img
+{
+    display: block;
+    margin: 0px auto;
+    height: 90%;
+    width: 90%;
+    border: 1px solid black;
+}
+div [class*="paisaje"]
+{
+    width: 28%;
+}
 footer
 {
     clear: both;

@@ -13,23 +13,32 @@ body
     width: 900px;
     display: block;
     margin: auto;
-    animation: contenedor 10s;
+    animation-name: imagen2-animacion;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0;
 }
 
-@-webkit-keyframes contenedor
+
+@-webkit-keyframes imagen2-animacion
 {
-    20%, 50%, 80% {
-        transform: translateY(0);
-      }
-    
-      40% {
-        transform: translateY(-30px);
-      }
-    
-      65% {
-        transform: translateY(-15px);
-      }
+    0%
+    {
+       transform: translateY(150%);
+    }
+    60%
+    {
+        transform: translateY(-5%);
+    }
+    100%
+    {
+        transform: translateY(0%);
+    }
 }
+    
+
 
 header
 {
@@ -75,7 +84,7 @@ img
 {
     display: block;
     margin: auto;
-    height: 400;
+    height: 400px;
     width: 90%;
 }
 #imagenSecundaria, #paisajes, #retratos
@@ -92,7 +101,7 @@ img
 {
     display: block;
     margin: 0px auto;
-    height: 300px;
+    height: 250px;
     width: 90%;
     border: 1px solid black;
 }
